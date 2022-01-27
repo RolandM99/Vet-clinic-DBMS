@@ -7,6 +7,7 @@ CREATE TABLE animals (
     escape_attempts INT,
     neutered BOOLEAN,
     weight_kg DECIMAL,
-    ALTER TABLE animals ADD species varchar(100),  /*ALTER command is for changing the structure(It help us to adding a forgotten column, for our case it's species column)*/
     PRIMARY KEY (id)
 );
+
+ALTER TABLE animals ADD species varchar(100),  /*ALTER command is for changing the structure(It help us to adding a forgotten column, for our case it's species column)*/
