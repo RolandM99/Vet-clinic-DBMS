@@ -47,7 +47,7 @@ UPDATE animals SET owner_id=5 WHERE name IN ('Angemon','Boarmon');
        -- Vet Maisy Smith is 26 years old and graduated Jan 17th, 2019.
        -- Vet Stephanie Mendez is 64 years old and graduated May 4th, 1981.
        -- Vet Jack Harkness is 38 years old and graduated Jun 8th, 2008.
-INSERT INTO vets(NAME,AGE,DATE_OF_GRADUATION) VALUES('William Tatche', 45,'2000-04-23'),
+INSERT INTO vets(name,age,date_of_graduation) VALUES('William Tatche', 45,'2000-04-23'),
 (' Maisy Smith', 26, '2019-01-17'),('Stephanie Mendez',64,'1981-05-04'),
 ('Jack Harkness', 38,'2008-06-08');
 
