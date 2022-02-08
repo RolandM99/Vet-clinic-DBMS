@@ -1,4 +1,4 @@
--- patients schema 
+-- Queries from patients schema Diagram
 
 CREATE TABLE patients(
     id SERIAL PRIMARY KEY,
